@@ -1,0 +1,81 @@
+﻿body, html {
+            padding: 0px;
+        margin:0px;
+}
+
+body, #Textbox{
+        font-family: Calibri, "Lucida Grande", Ubuntu, sans-serif;
+            font-size:1em;
+            color: #1e1e1e;
+    background-color: #eeeeee;
+
+}
+
+body {
+            font-size:3em;
+}
+
+div.letter {
+        color: #1e1e1e;
+        padding-left: 50px;
+
+        background-position: 12px center;
+        background-repeat:no-repeat;
+        
+        height: 1.5em;
+
+        cursor:pointer;
+}
+
+    div.letter:hover {
+        background-color: #1e1e1e;
+        color: #eeeeee;
+        background-image: url(../Images/arrow.png);
+    }
+
+    div.letter.fade {
+        color: #999999;
+        background-image: url(../Images/tick.png);
+    }
+
+footer {
+    height: 1.7em;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    position:absolute;
+    background-color: #1e1e1e;
+        color: #eeeeee;
+        text-align:center;
+}
+    footer a {
+        cursor:pointer;
+        text-decoration:none;
+        width: 3em;
+        position:absolute;
+        right:0.1em;
+        bottom:0.1em;
+        top:0.1em;
+    }
+    footer #Textbox {
+        position:absolute;
+        top:0.1em;
+        bottom:0.1em;
+        left:0.1em;
+        right:3.2em;
+
+        text-wrap:none;
+        overflow:hidden;
+    }
+    footer a:hover, footer a:active {
+    color: white;
+    text-decoration:underline;
+    }
+#LettersDiv {
+    position:absolute;
+    bottom: 1.7em;
+    left: 0px;
+    right:0px;
+    top:0px;
+    overflow:auto;
+}
